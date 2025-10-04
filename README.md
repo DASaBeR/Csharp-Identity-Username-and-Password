@@ -56,7 +56,6 @@ namespace AuthDemo.Models
     public class ApplicationUser : IdentityUser
     {
         public string? FullName { get; set; }
-        public string? EthAddress { get; set; } // for later Web3 login
     }
 }
 ```
